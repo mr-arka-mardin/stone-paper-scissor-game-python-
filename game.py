@@ -37,10 +37,7 @@ while (i<8):
     elif x==y:
         print("game-draw.chances left:",8-i)
 
-
-
-else:
-    print("game over!")
+print("game over!")
 print("computer point is :",z,"and your point is:",k)
 if (k>z):
     print("you won.as computer point is less than yours by",k-z,"points")
