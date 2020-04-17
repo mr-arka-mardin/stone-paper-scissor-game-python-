@@ -1,7 +1,7 @@
 import random
 print("1-stone,2=paper,3=scissor")
-z=0#computer
-k=0#human
+z=0#computer point
+k=0#your point
 i=0
 while (i<8):
     i=i+1
@@ -41,7 +41,7 @@ while (i<8):
 
 else:
     print("game over!")
-print("computer point is :",z,"and human point is:",k)
+print("computer point is :",z,"and your point is:",k)
 if (k>z):
     print("you won.as computer point is less than yours by",k-z,"points")
 elif (z>k):
